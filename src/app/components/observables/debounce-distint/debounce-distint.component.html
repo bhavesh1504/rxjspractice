@@ -1,0 +1,25 @@
+<div class="my-3">
+    <h2>Debounce Time & Distint Until Change</h2>
+    <br>
+
+    <div>
+        <div class="col-md-6">
+            <strong>Ex -01 <span class="text-primary">Debounce Time</span></strong>
+            <hr>
+            <div>
+            <label>Search...</label><br>
+            <input class="form-control form-control-lg" type="text" placeholder="Search..." aria-label=".form-control-lg example" #input>
+            <span *ngIf="reqData != null">Requested Data: <strong class="text-success">{{reqData}}</strong></span>
+            </div>
+        </div><br>
+        <div class="col-md-6">
+            <strong>Ex -02 <span class="text-warning">Distint Until Change</span></strong>
+            <hr>
+            <div>
+            <label>Search...</label><br>
+            <input class="form-control form-control-lg" type="text" placeholder="Search..." aria-label=".form-control-lg example" #inputs>
+            <span *ngIf="reqDatas != null">Requested Data: <strong class="text-success">{{reqDatas}}</strong></span>
+            </div>
+        </div>
+    </div>
+</div>
