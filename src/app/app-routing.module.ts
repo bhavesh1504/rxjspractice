@@ -9,6 +9,7 @@ import { MapComponent } from './components/observables/map/map.component';
 import { MergemapComponent } from './components/observables/mergemap/mergemap.component';
 import { ObservablesComponent } from './components/observables/observables.component';
 import { TapComponent } from './components/observables/tap/tap.component';
+import { TestComponent } from './components/observables/test/test.component';
 import { PromiseComponent } from './components/promise/promise.component';
 import { HeaderComponent } from './shared/header/header.component';
 
@@ -22,7 +23,9 @@ const routes: Routes = [
     {path:'filter',component:FilterComponent},
     {path:'debounce&distint',component:DebounceDistintComponent},
     {path:'concatmap',component:ConcatmapComponent},
-    {path:'mergemap',component:MergemapComponent}
+    {path:'mergemap',component:MergemapComponent},
+    {path:'test',component:TestComponent}
+
   ]}
 ];
 

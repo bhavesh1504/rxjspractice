@@ -14,6 +14,8 @@ import { DebounceDistintComponent } from './components/observables/debounce-dist
 import { LoadingBarModule } from '@ngx-loading-bar/core';
 import { MergemapComponent } from './components/observables/mergemap/mergemap.component';
 import { ConcatmapComponent } from './components/observables/concatmap/concatmap.component';
+import { HostbindingDirective } from './components/observables/hostbinding.directive';
+import { TestComponent } from './components/observables/test/test.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +29,9 @@ import { ConcatmapComponent } from './components/observables/concatmap/concatmap
     FilterComponent,
     DebounceDistintComponent,
     MergemapComponent,
-    ConcatmapComponent
+    ConcatmapComponent,
+    HostbindingDirective,
+    TestComponent
   ],
   imports: [
     BrowserModule,
